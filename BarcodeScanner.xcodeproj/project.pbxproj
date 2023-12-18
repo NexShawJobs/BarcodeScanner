@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		F0619F9B2B308168003F434D /* BarcodeScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0619F9A2B308168003F434D /* BarcodeScannerApp.swift */; };
-		F0619F9D2B308168003F434D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0619F9C2B308168003F434D /* ContentView.swift */; };
+		F0619F9D2B308168003F434D /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0619F9C2B308168003F434D /* BarcodeScannerView.swift */; };
 		F0619F9F2B30816A003F434D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0619F9E2B30816A003F434D /* Assets.xcassets */; };
 		F0619FA22B30816A003F434D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0619FA12B30816A003F434D /* Preview Assets.xcassets */; };
 		F0619FAC2B30816A003F434D /* BarcodeScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0619FAB2B30816A003F434D /* BarcodeScannerTests.swift */; };
 		F0619FB62B30816A003F434D /* BarcodeScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0619FB52B30816A003F434D /* BarcodeScannerUITests.swift */; };
 		F0619FB82B30816A003F434D /* BarcodeScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0619FB72B30816A003F434D /* BarcodeScannerUITestsLaunchTests.swift */; };
+		F0AC774B2B309C37002B8F36 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AC774A2B309C37002B8F36 /* ScannerVC.swift */; };
+		F0AC774D2B30BF93002B8F36 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AC774C2B30BF93002B8F36 /* ScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		F0619F972B308168003F434D /* BarcodeScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarcodeScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0619F9A2B308168003F434D /* BarcodeScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerApp.swift; sourceTree = "<group>"; };
-		F0619F9C2B308168003F434D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F0619F9C2B308168003F434D /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
 		F0619F9E2B30816A003F434D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0619FA12B30816A003F434D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F0619FA72B30816A003F434D /* BarcodeScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarcodeScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,8 @@
 		F0619FB12B30816A003F434D /* BarcodeScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarcodeScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0619FB52B30816A003F434D /* BarcodeScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerUITests.swift; sourceTree = "<group>"; };
 		F0619FB72B30816A003F434D /* BarcodeScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F0AC774A2B309C37002B8F36 /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
+		F0AC774C2B30BF93002B8F36 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		F0619F8E2B308168003F434D = {
 			isa = PBXGroup;
 			children = (
+				F0AC774C2B30BF93002B8F36 /* ScannerView.swift */,
 				F0619F992B308168003F434D /* BarcodeScanner */,
 				F0619FAA2B30816A003F434D /* BarcodeScannerTests */,
 				F0619FB42B30816A003F434D /* BarcodeScannerUITests */,
@@ -95,9 +100,10 @@
 			isa = PBXGroup;
 			children = (
 				F0619F9A2B308168003F434D /* BarcodeScannerApp.swift */,
-				F0619F9C2B308168003F434D /* ContentView.swift */,
+				F0619F9C2B308168003F434D /* BarcodeScannerView.swift */,
 				F0619F9E2B30816A003F434D /* Assets.xcassets */,
 				F0619FA02B30816A003F434D /* Preview Content */,
+				F0AC774A2B309C37002B8F36 /* ScannerVC.swift */,
 			);
 			path = BarcodeScanner;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0619F9D2B308168003F434D /* ContentView.swift in Sources */,
+				F0AC774B2B309C37002B8F36 /* ScannerVC.swift in Sources */,
+				F0AC774D2B30BF93002B8F36 /* ScannerView.swift in Sources */,
+				F0619F9D2B308168003F434D /* BarcodeScannerView.swift in Sources */,
 				F0619F9B2B308168003F434D /* BarcodeScannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +433,7 @@
 				DEVELOPMENT_TEAM = 52X6NTR83E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use the camera to scan  barcodes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +463,7 @@
 				DEVELOPMENT_TEAM = 52X6NTR83E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use the camera to scan  barcodes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
