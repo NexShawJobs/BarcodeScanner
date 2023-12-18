@@ -28,6 +28,7 @@ struct BarcodeScannerView: View {
     }
 }
 
+
 #Preview {
     BarcodeScannerView()
 }
